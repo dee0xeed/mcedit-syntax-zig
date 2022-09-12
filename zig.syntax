@@ -1,0 +1,243 @@
+
+
+context default
+    keyword whole align yellow
+    keyword whole allowzero yellow
+    keyword whole anyframe yellow
+    keyword whole anytype yellow
+    keyword whole asm yellow
+    keyword whole async yellow
+    keyword whole await yellow
+    keyword whole break yellow
+    keyword whole catch yellow
+    keyword whole comptime yellow
+    keyword whole const yellow
+    keyword whole continue yellow
+    keyword whole defer yellow
+    keyword whole else yellow
+    keyword whole enum yellow
+    keyword whole errdefer yellow
+    keyword whole error yellow
+    keyword whole export yellow
+    keyword whole extern yellow
+    keyword whole fn yellow
+    keyword whole for yellow
+    keyword whole if yellow
+    keyword whole inline yellow
+    keyword whole noalias yellow
+    keyword whole nosuspend yellow
+    keyword whole orelse yellow
+    keyword whole packed yellow
+    keyword whole pub yellow
+    keyword whole resume yellow
+    keyword whole return yellow
+    keyword whole struct yellow
+    keyword whole suspend yellow
+    keyword whole switch yellow
+    keyword whole test yellow
+    keyword whole try yellow
+    keyword whole union yellow
+    keyword whole unreachable yellow
+    keyword whole var yellow
+    keyword whole volatile yellow
+    keyword whole while yellow
+
+    keyword /// white
+    keyword //! white
+    keyword // brown
+
+    keyword whole false white
+    keyword whole true white
+    keyword whole null white
+    keyword whole undefined white
+
+# builtin types (primitive)
+    keyword whole void brightred
+    keyword whole bool brightred
+    keyword whole i4 brightred
+    keyword whole u4 brightred
+    keyword whole i8 brightred
+    keyword whole u8 brightred
+    keyword whole i16 brightred
+    keyword whole u16 brightred
+    keyword whole i32 brightred
+    keyword whole u32 brightred
+    keyword whole i64 brightred
+    keyword whole u64 brightred
+    keyword whole i128 brightred
+    keyword whole u128 brightred
+    keyword whole c_short brightred
+    keyword whole c_ushort brightred
+    keyword whole c_int brightred
+    keyword whole c_uint brightred
+    keyword whole c_long brightred
+    keyword whole c_ulong brightred
+    keyword whole c_longlong brightred
+    keyword whole c_ulonglong brightred
+    keyword whole c_longdouble brightred
+    keyword whole f16 brightred
+    keyword whole f32 brightred
+    keyword whole f64 brightred
+    keyword whole f128 brightred
+    keyword whole isize brightred
+    keyword whole usize brightred
+    keyword whole anyopaque brightred
+    keyword whole anyerror brightred
+    keyword whole noreturn brightred
+    keyword whole type brightred
+    keyword whole comptime_int brightred
+    keyword whole comptime_float brightred
+
+# operators and punctuation
+    keyword whole and brightcyan
+    keyword whole or brightcyan
+    keyword whole xor brightcyan
+    keyword whole not brightcyan
+    keyword \+ brightcyan
+    keyword - brightcyan
+    keyword \* brightcyan
+    keyword / brightcyan
+    keyword % brightcyan
+    keyword > brightcyan
+    keyword < brightcyan
+    keyword & brightcyan
+    keyword | brightcyan
+    keyword ^ brightcyan
+    keyword ~ brightcyan
+    keyword = brightcyan
+    keyword ( brightcyan
+    keyword ) brightcyan
+    keyword : brightcyan
+    keyword ; brightcyan
+    keyword [ brightcyan
+    keyword ] brightcyan
+    keyword { brightcyan
+    keyword } brightcyan
+    keyword . brightcyan
+    keyword , brightcyan
+    keyword ? brightcyan
+    keyword ! brightcyan
+
+# numbers
+    keyword whole \{0123456789\}\[0123456789\] brightgreen
+    keyword whole \[0123456789\]\.\{0123456789\}\[0123456789\] brightgreen
+
+# builtin functions
+    keyword whole @This cyan
+    keyword whole @Type cyan
+    keyword whole @TypeOf cyan
+    keyword whole @addWithOverflow cyan
+    keyword whole @alignCast cyan
+    keyword whole @alignOf cyan
+    keyword whole @as cyan
+    keyword whole @asyncCall cyan
+    keyword whole @atomicLoad cyan
+    keyword whole @atomicRmw cyan
+    keyword whole @atomicStore cyan
+    keyword whole @bitCast cyan
+    keyword whole @bitOffsetOf cyan
+    keyword whole @boolToInt cyan
+    keyword whole @bitSizeOf cyan
+    keyword whole @breakpoint cyan
+    keyword whole @byteSwap cyan
+    keyword whole @bitReverse cyan
+    keyword whole @call cyan
+    keyword whole @ceil cyan
+    keyword whole @cDefine cyan
+    keyword whole @cImport cyan
+    keyword whole @cInclude cyan
+    keyword whole @clz cyan
+    keyword whole @cmpxchgStrong cyan
+    keyword whole @cmpxchgWeak cyan
+    keyword whole @compileLog cyan
+    keyword whole @cos cyan
+    keyword whole @ctz cyan
+    keyword whole @cUndef cyan
+    keyword whole @divExact cyan
+    keyword whole @divFloor cyan
+    keyword whole @divTrunc cyan
+    keyword whole @embedFile cyan
+    keyword whole @enumToInt cyan
+    keyword whole @errorName cyan
+    keyword whole @errorReturnTrace cyan
+    keyword whole @errorToInt cyan
+    keyword whole @errSetCast cyan
+    keyword whole @exp cyan
+    keyword whole @exp2 cyan
+    keyword whole @export cyan
+    keyword whole @extern cyan
+    keyword whole @fabs cyan
+    keyword whole @fence cyan
+    keyword whole @field cyan
+    keyword whole @fieldParentPtr cyan
+    keyword whole @floatCast cyan
+    keyword whole @floatToInt cyan
+    keyword whole @floor cyan
+    keyword whole @frame cyan
+    keyword whole @Frame cyan
+    keyword whole @frameAddress cyan
+    keyword whole @frameSize cyan
+    keyword whole @hasDecl cyan
+    keyword whole @hasField cyan
+    keyword whole @import cyan
+    keyword whole @intCast cyan
+    keyword whole @intToEnum cyan
+    keyword whole @intToError cyan
+    keyword whole @intToFloat cyan
+    keyword whole @intToPtr cyan
+    keyword whole @log cyan
+    keyword whole @log2 cyan
+    keyword whole @log10 cyan
+    keyword whole @maximum cyan
+    keyword whole @memcpy cyan
+    keyword whole @memset cyan
+    keyword whole @minimum cyan
+    keyword whole @mulAdd cyan
+    keyword whole @wasmMemorySize cyan
+    keyword whole @wasmMemoryGrow cyan
+    keyword whole @mod cyan
+    keyword whole @mulWithOverFlow cyan
+    keyword whole @offsetOf cyan
+    keyword whole @panic cyan
+    keyword whole @popCount cyan
+    keyword whole @prefetch cyan
+    keyword whole @ptrCast cyan
+    keyword whole @ptrToInt cyan
+    keyword whole @reduce cyan
+    keyword whole @rem cyan
+    keyword whole @round cyan
+    keyword whole @returnAddress cyan
+    keyword whole @select cyan
+    keyword whole @setAlignStack cyan
+    keyword whole @setCold cyan
+    keyword whole @setEvalBranchQuota cyan
+    keyword whole @setFloatMode cyan
+    keyword whole @setRuntimeSafety cyan
+    keyword whole @shlExact cyan
+    keyword whole @shlWithOverFlow cyan
+    keyword whole @shrExact cyan
+    keyword whole @shuffle cyan
+    keyword whole @sin cyan
+    keyword whole @sizeOf cyan
+    keyword whole @splat cyan
+    keyword whole @sqrt cyan
+    keyword whole @src cyan
+    keyword whole @subWithOverFlow cyan
+    keyword whole @tagName cyan
+    keyword whole @trunc cyan
+    keyword whole @truncate cyan
+    keyword whole @typeInfo cyan
+    keyword whole @typeName cyan
+    keyword whole @unioninit cyan
+
+# string literals
+context " " green
+    keyword %\[#0\s-\+,\]\[0123456789\*\]\[.\]\[0123456789\*\]\[L\]\{eEfgGoxX\} brightgreen
+    keyword %\[0\s-\+,\]\[0123456789\*\]\[.\]\[0123456789\*\]\[hl\]\{diuxX\} brightgreen
+    keyword \\\{abtnvfr\} brightgreen
+context exclusive \\\\ \n green
+
+# comments
+context exclusive /// \n white
+context exclusive //! \n white
+context exclusive // \n brown
