@@ -1,6 +1,6 @@
 # Zig language syntax highlighting for mcedit
 ## How to use
-  - put `syntax.zig` file to `/usr/share/mc/syntax` directory
+  - put `zig.syntax` file to `/usr/share/mc/syntax` directory
   - add following lines to `/usr/share/mc/syntax/Syntax`
   ```
   file .\*\\.(zig)$ zig\sProgram
