@@ -236,6 +236,7 @@ context " " green
     keyword %\[0\s-\+,\]\[0123456789\*\]\[.\]\[0123456789\*\]\[hl\]\{diuxX\} brightgreen
     keyword \\\{abtnvfr\} brightgreen
 context exclusive \\\\ \n green
+context ' ' green
 
 # comments
 context exclusive /// \n white
