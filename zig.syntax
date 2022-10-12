@@ -237,6 +237,8 @@ context " " green
     keyword \\\{abtnvfr\} brightgreen
 context exclusive \\\\ \n green
 context ' ' green
+    keyword \\' green
+    keyword \\\\ green
 
 # comments
 context exclusive /// \n white
