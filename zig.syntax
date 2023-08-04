@@ -1,5 +1,4 @@
 
-
 context default
     keyword whole align yellow
     keyword whole allowzero yellow
@@ -54,12 +53,24 @@ context default
 # builtin types (primitive)
     keyword whole void brightred
     keyword whole bool brightred
+    keyword whole u1 brightred
+    keyword whole u2 brightred
+    keyword whole u3 brightred
     keyword whole i4 brightred
     keyword whole u4 brightred
+    keyword whole u5 brightred
+    keyword whole u6 brightred
+    keyword whole u7 brightred
     keyword whole i8 brightred
     keyword whole u8 brightred
+    keyword whole u9 brightred
+    keyword whole u12 brightred
     keyword whole i16 brightred
     keyword whole u16 brightred
+    keyword whole u18 brightred
+    keyword whole u22 brightred
+    keyword whole u24 brightred
+    keyword whole u27 brightred
     keyword whole i32 brightred
     keyword whole u32 brightred
     keyword whole i64 brightred
@@ -229,6 +240,15 @@ context default
     keyword whole @typeInfo cyan
     keyword whole @typeName cyan
     keyword whole @unioninit cyan
+    keyword whole @intFromEnum cyan
+    keyword whole @intFromBool cyan
+    keyword whole @intFromError cyan
+    keyword whole @intFromFloat cyan
+    keyword whole @enumFromInt cyan
+    keyword whole @errorFromInt cyan
+    keyword whole @floatFromInt cyan
+    keyword whole @ptrFromInt cyan
+    keyword whole @intFromPtr cyan
 
 # string literals
 context " " green
@@ -236,9 +256,9 @@ context " " green
     keyword %\[0\s-\+,\]\[0123456789\*\]\[.\]\[0123456789\*\]\[hl\]\{diuxX\} brightgreen
     keyword \\\{abtnvfr\} brightgreen
 context exclusive \\\\ \n green
-context ' ' green
-    keyword \\' green
-    keyword \\\\ green
+context ' ' brightgreen
+    keyword \\' brightgreen
+    keyword \\\\ brightgreen
 
 # comments
 context exclusive /// \n white
